@@ -1,0 +1,16 @@
+.vscode/**
+.vscode-test-web/**
+out/**
+node_modules/**
+pnpm-lock.yaml
+src/**
+.gitignore
+esbuild.js
+esbuild.web.js
+**/tsconfig.json
+**/eslint.config.mjs
+**/*.map
+**/*.ts
+**/.vscode-test.*
+media\demo-envs.png
+media\demo-sections.png

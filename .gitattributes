@@ -1,0 +1,3 @@
+esbuild.js linguist-detectable=false
+esbuild.web.js linguist-detectable=false
+eslint.config.mjs linguist-detectable=false
