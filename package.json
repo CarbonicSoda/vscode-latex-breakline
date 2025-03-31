@@ -2,7 +2,7 @@
 	"name": "latex-breakline",
 	"displayName": "LaTeX Breakline",
 	"description": "LaTeX Fit Lines to Width",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "carbonsoda",
 	"author": {
 		"name": "David W."
