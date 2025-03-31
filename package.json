@@ -40,7 +40,7 @@
 	"contributes": {
 		"commands": [
 			{
-				"title": "LaTeX Breakline",
+				"title": "Breaklines",
 				"command": "latex-breakline.breakline",
 				"category": "LaTeX",
 				"enablement": "editorLangId == latex || editorLangId == tex"
