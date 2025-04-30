@@ -1,13 +1,16 @@
 {
+	"useTabs": true,
+	"tabWidth": 2,
+
+	"semi": true,
 	"endOfLine": "auto",
-	"htmlWhitespaceSensitivity": "css",
-	"objectWrap": "collapse",
+
+	"trailingComma": "all",
+
 	"printWidth": 80,
 	"proseWrap": "always",
+	"objectWrap": "collapse",
+
 	"quoteProps": "consistent",
-	"semi": true,
-	"singleAttributePerLine": true,
-	"tabWidth": 2,
-	"trailingComma": "all",
-	"useTabs": true
+	"singleAttributePerLine": true
 }

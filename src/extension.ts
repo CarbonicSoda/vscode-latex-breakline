@@ -1,6 +1,5 @@
 import {
 	commands,
-	EndOfLine,
 	ExtensionContext,
 	Range,
 	TextEditor,
@@ -18,9 +17,8 @@ export function deactivate(): void {}
 function breakline(editor: TextEditor, edit: TextEditorEdit): void {
 	const doc = editor.document;
 	const src = doc.getText();
-	const eol = doc.eol === EndOfLine.LF ? "\n" : "\r\n";
 
-	const segRE = RegExp(`.+?(?:${eol}){2,}|.+?$`, "gs");
+	const segRE = RegExp(`.+?(?:\\n){2,}|.+?$`, "gs");
 
 	for (const segMatch of src.matchAll(segRE)) {
 		const segment = segMatch[0];
@@ -66,13 +64,13 @@ function breakline(editor: TextEditor, edit: TextEditorEdit): void {
 
 		const formatted = segs
 			.map((words) => words.join(" "))
-			.join(eol)
+			.join("\n")
 			.trimEnd();
 
 		const start = segMatch.index;
 		const end = start + segment.length;
 		const range = new Range(doc.positionAt(start), doc.positionAt(end));
 
-		edit.replace(range, formatted + eol.repeat(2));
+		edit.replace(range, formatted + "\n".repeat(2));
 	}
 }
