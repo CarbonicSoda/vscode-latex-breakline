@@ -1,10 +1,11 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/CarbonicSoda/vscode-latex-breakline/master/media/icon.png" width="130" alt="VSCode LaTeX Breakline Icon" /><br />
+	<img src="https://raw.githubusercontent.com/CarbonicSoda/vscode-latex-breakline/master/media/icon.png" width="130" alt="LaTeX Breakline Icon" />
+  <p></p>
   VSCode LaTeX Breakline
 </h3>
-<p align="center">LaTeX Fit Lines to Width</p>
+<h4 align="center">LaTeX Fit Lines to Width</h4>
 
----
+## Features
 
 A very simple and minimal extension that fits $\LaTeX$ document lines into a
 width of 80 characters, similar to using Prettier to format Markdown.
