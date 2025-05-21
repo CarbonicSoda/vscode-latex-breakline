@@ -5,6 +5,11 @@
 </h3>
 <h4 align="center">LaTeX Fit Lines to Width</h4>
 
+# DEPRECATED
+
+The package is deprecated in favour of [This Prettier Plugin](https://www.npmjs.com/package/prettier-plugin-latex/v/1.2.4) which uses ASTs to manipulate LaTeX,
+and is overall way better than this extension written for perfunctory.
+
 ## Usage
 
 A very simple and minimal extension that fits $\LaTeX$ document lines into a
